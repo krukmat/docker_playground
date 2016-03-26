@@ -6,10 +6,12 @@ Docker Playground
 
 aiohttp_composer:
 ----------------
+    docker-compose build <- Just if there are changes in DockerFile
     docker-compose up
 django:
 ------
     docker-compose run web django-admin.py startproject composeexample . # Create the project 1st time only
+    docker-compose build <- Just if there are changes in DockerFile
     docker-compose up
 aiohttp:
 -------
