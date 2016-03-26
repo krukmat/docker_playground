@@ -1,0 +1,6 @@
+meinheld
+aiohttp
+aiohttp_session
+cchardet
+gunicorn
+requests
